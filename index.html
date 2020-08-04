@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My saylani form</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+</head>
+<body>
+  <style>
+    body{
+      background-color: slateblue;
+    }
+    .button{
+      text-decoration: none;
+      color: black;
+      outline: none;
+      border: none;
+    }
+    #white{
+      width: auto;
+      background-color: #fff;
+    }
+  </style>
+  
+
+  <!-- =====saylani student form ======== --> 
+    <div class="container-fluid text-center" id="white">
+       <img src="images/saylani-welfare-775x320.jpg" width="350"  class="img-fluid">
+       <p class="text-center" style="color: slateblue; font-size: 25px; font-weight: bolder; text-decoration: underline; cursor: pointer;">STUDENT REGISTRATION FORM</p>
+      </div>
+
+      <div class="container-fluid text-white">
+      <form>
+        <div class="row mb-3">
+          <label for="text" class="col-sm-2 col-form-label">FIRST NAME</label>
+          <div class="col-sm-3">
+            <input type="text" class="form-control" placeholder="ENTER FIRST NAME" maxlength="30">
+          </div>
+          <div class="col-auto">
+            <span id="passwordHelpInline" class="form-text" style="color: #fff;">
+              (max 30 charater A-Z and a-z) 
+            </span>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="LAST-NAME" class="col-sm-2 col-form-label">LAST NAME</label>
+          <div class="col-sm-3">
+            <input type="text" class="form-control" placeholder="ENTER LAST NAME" maxlength="30">
+          </div>
+          <div class="col-auto">
+            <span id="30 CHAR" class="form-text" style="color: #fff;">
+              (max 30 charater A-Z and a-z) 
+            </span>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">DATE OF BIRTH</label>
+          <div class="col-sm-3">
+            <input type="date" class="form-control"> 
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <label for="email" class="col-sm-2 col-form-label">EMAIL</label>
+          <div class="col-sm-3">
+            <input type="email" class="form-control" placeholder="ENTER EMAIL ADDRESS">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="MOBILE" class="col-sm-2 col-form-label">MOBILE NUMBER</label>
+          <div class="col-sm-3">
+            <input type="number" class="form-control" placeholder="ENTER PHONE NUMBER" maxlength="10">
+          </div>
+          <div class="col-auto">
+            <span id="passwordHelpInline" class="form-text" style="color: #fff;">
+              (10 DIGIT NUMBER) 
+            </span>
+          </div>
+        </div>
+     </div>
+  
+     <div class="container-fluid text-white">
+     <div class="row mb-3">
+      <legend class="col-form-label col-sm-2 pt-0">GENDER</legend>
+      <div class="col-sm-10">
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+          <label class="form-check-label" for="gridRadios1">
+            MALE
+          </label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+          <label class="form-check-label" for="gridRadios2">
+            FEMALE
+          </label>
+        </div>
+      </div>
+
+      <div class="container mt-2">
+      <div class="row mb-3">
+        <label for="comment" class="col-sm-2 col-form-label">ADDRESS</label>
+        <div class="col-sm-3">
+          <textarea class="form-control" rows="5"></textarea> 
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="email" class="col-sm-2 col-form-label">CITY</label>
+        <div class="col-sm-3">
+          <input type="text" class="form-control" placeholder="ENTER CITY NAME" maxlength="30">
+        </div>
+        <div class="col-auto">
+          <span id="passwordHelpInline" class="form-text" style="color: #fff;">
+            (max 30 charaters A-Z and a-z) 
+          </span>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="pincode" class="col-sm-2 col-form-label">PIN CODE</label>
+        <div class="col-sm-3">
+          <input type="password" name="pin" maxlength="6" class="form-control" placeholder="ENTER PINCODE" maxlength="6">
+        </div>
+        <div class="col-auto">
+          <span id="passwordHelpInline" class="form-text" style="color: #fff;">
+            (6 DIGIT NUMBER) 
+          </span>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="state" class="col-sm-2 col-form-label">STATE</label>
+        <div class="col-sm-3">
+          <input type="text" name="pin" maxlength="30" class="form-control" placeholder="ENTER STATE" maxlength="30">
+        </div>
+        <div class="col-auto">
+          <span id="passwordHelpInline" class="form-text" style="color: #fff;">
+            (max 30 charaters A-Z and a-z)  
+          </span>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="country" class="col-sm-2 col-form-label">COUNTRY</label>
+        <div class="col-sm-3">
+          <input type="text" name="pin" maxlength="30" class="form-control" placeholder="ENTER COUNTRY" maxlength="30">
+        </div>
+      </div>
+
+  
+      <!-- ================hobbies boxes==================== -->
+       <label for="hobbies" class="col-sm-2 col-form-label">HOBBIES</label>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+          <label class="form-check-label" for="inlineCheckbox1">DRAWING</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+          <label class="form-check-label" for="inlineCheckbox2">SWIMMING</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+          <label class="form-check-label" for="inlineCheckbox3">SKETCHING</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option4">
+          <label class="form-check-label" for="inlineCheckbox4">SINGING</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option4">
+          <label class="form-check-label" for="inlineCheckbox5">OTHER</label>
+        </div>
+      </div>
+     
+      <!-- =================checkbox ended=================== -->
+  
+     <!--   =============Qualification box=================== -->
+
+     <div class="container mt-4">
+      <div class="row mb-4">
+        <label for="Qualification" class="col-sm-2 col-form-label">QUALIFICATION</label>
+      </div>
+     </div>
+        <table class="text-white">
+            <thead>
+              <tr>
+                <th scope="col">S.NO.1 EXAMINATION</th>
+                <th scope="col" class="text-center">BOARD</th>
+                <th scope="col" class="text-center">PERCENTAGE</th>
+                <th scope="col" class="text-center">YEAR OF PASSING</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1 CLASS X</th>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+              </tr>
+              <tr>
+                <th scope="row">2 CLASS XII</th>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+              </tr>
+              <tr>
+                <th scope="row">3 GRADUATION</th>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+              </tr>
+              <tr>
+                <th scope="row">4 MASTERS</th>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control"></td>
+              </tr>
+              <tr>
+                <td></td>
+                <th class="text-center">(10 Char max)</th>
+                <th class="text-center">(Upto 2 decimal)</th>
+              </tr>
+            </tbody>
+          </table>
+     
+      <!-- </div>
+      </div>  -->
+     
+    
+      <!-- ===================complete the table ==================== -->
+   
+      <div class="container-fluid text-white mt-5">
+        <div class="row mb-3">
+         <legend class="col-form-label col-sm-2 pt-0">COURSES APPLIED FOR</legend>
+         <div class="col-sm-10">
+           <div class="form-check form-check-inline">
+             <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+             <label class="form-check-label" for="gridRadios1">
+               BCA
+             </label>
+           </div>
+           <div class="form-check form-check-inline">
+             <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+             <label class="form-check-label" for="gridRadios2">
+               B.COM
+             </label>
+           </div>
+           <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              B.Sc
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              B.A
+            </label>
+          </div>
+         </div>
+        
+  <!-- ===========RADIO BOXES ENDED================================ -->
+   
+ <div class="container mt-4 text-center">
+   <button>
+   <a href="submit.html" class="button">Submit 
+   </a>
+   </button>
+
+   <button>
+   <a href="index.html" class="button">Reset</a>
+   </button>
+  
+<!-- ====================END OF CODE ======================== -->
+
+<!-- ====================HAPPY CODING😎😎😎😎😎============ -->
+
+<!-- ==================DESIGNED BY: MUHAMMAD WASI ============-->
+</body>
+</html>
